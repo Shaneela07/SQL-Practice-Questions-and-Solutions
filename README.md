@@ -28,3 +28,22 @@ Medium
 Hard
 Let’s Get Started!
 With the provided dataset and solutions, this repository makes it easier for you to focus on improving your SQL skills. Whether you’re new to SQL or looking to level up, this is the perfect place to start! 🚀
+
+# NorthWind Dataset
+
+**Table — Name — Columns**
+
+T1 — categories— category_id, category_name, description
+
+T2 — customers —customer_id, company_name, contact_name, contact_title, address, city, region, postal_code, country, phone,fax
+
+T3 — orders — order_id, customer_id, employee_id, order_date required_date, shipped_date, ship_via, freight, ship_name, ship_address, ship_city, ship_region, ship_postal_code, ship_country
+
+T4 — employees — employee_id, last_name, first_name, title, title_of_courtesy, birth_date, hire_date, address, city, region, postal_code, country, home_phone, extension, reports_to
+
+T5 — products — product_id, product_name, supplier_id, category_id, quantity_per_unit, unit_price, units_in_stock, units_on_order, reorder_level, discontinued
+
+T6 — suppliers — supplier_id, company_name, contact_name, contact_title, address, city, region, postal_code, country, phone, fax, home_page
+
+T7 — order_details — order_id, product_id, quantity, discount
+
